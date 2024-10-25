@@ -1,8 +1,8 @@
 # Apple Music (Play/Pause) Script:
-if application "Spotify" is running then
-    tell application "Spotify" to playpause
+if application "Music" is running then
+    tell application "Music" to playpause
 else
-    display notification "Spotify is not running" with title "Music Controller"
+    display notification "Music is not running" with title "Music Controller"
 end if
 
 # Next Track:
